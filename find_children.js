@@ -1,3 +1,11 @@
+/*
+ * Example JavaScript function to recursively find all text nodes and their children
+ *
+ * Wraps found text nodes in a span.
+ *
+ * Requires jQuery
+ */
+
 function find_children(element) {
 	// find text nodes
 	if (element.nodeType === 1) { 
